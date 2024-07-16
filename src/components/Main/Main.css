@@ -1,0 +1,299 @@
+.main.default{
+    flex: 1;
+    min-height: 100vh;
+    padding-bottom: 15vh;
+    position: relative;
+    background-image: url("https://images.hdqwalls.com/wallpapers/city-forest-minimalist-ey.jpg");
+    background-size: cover;
+    object-fit: contain;
+}
+
+.main.forest{
+    flex: 1;
+    min-height: 100vh;
+    padding-bottom: 15vh;
+    position: relative;
+    background-image: url("https://images.hdqwalls.com/wallpapers/homura-akemi-from-mahou-shoujo-madoka-magica-rc.jpg");
+    background-size: cover;
+    object-fit: contain;
+}
+
+.main.sunrise{
+    flex: 1;
+    min-height: 100vh;
+    padding-bottom: 15vh;
+    position: relative;
+    background-image: url("https://images.hdqwalls.com/wallpapers/illustrator-planet-ai-art-4k-84.jpg");
+    background-size: cover;
+    object-fit: contain;
+}
+
+.main .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 20px;
+    color: #f6efef;
+}
+
+.main .nav img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.main-container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.main .greet{
+    margin: 50px 0px;
+    font-size: 56px;
+    color: white;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.main .greet span{
+    background: -webkit-linear-gradient(16deg,#4b90ff,#ff5546);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+    gap: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.main .card1 {
+    background-image: url('https://images.hdqwalls.com/wallpapers/batman-art-4k-t1.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main .card2 {
+    background-image: url('https://images.hdqwalls.com/wallpapers/a-lofi-romance-db.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.main .card3 {
+    background-image: url('https://images.hdqwalls.com/wallpapers/dynamic-action-motion-man-attack-on-robot-artwork-67.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.main .card4 {
+    background-image: url('https://images.hdqwalls.com/download/adventure-time-digital-art-v1-1920x1080.jpg');
+    background-size: 100%;
+    background-position: center;
+    border-radius: 10px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+
+}
+
+
+.main .card p{
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 17px;
+    justify-content: center;
+    font: bold;
+    font-weight: 900;
+}
+
+.main .card1:hover{
+    background-color: #0b3b77;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.main .card2:hover{
+    background-color: #0b3b77;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.main .card3:hover{
+    background-color: #0b3b77;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.main .card4:hover{
+    background-color: #0b3b77;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.main-bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 900px;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #f0f4f9;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.search-box img{
+    width: 24px;
+    cursor: pointer;
+}
+
+.search-box input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 18px;
+}
+
+.search-box div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.options-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #4b90ff;
+}
+
+.select-box {
+    position: absolute;
+    bottom: 110px; /* Adjust the value as needed to position it above the search box */
+    right: 100px;
+    background-color: #f0f4f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 3px;
+    z-index: 1;
+    width: 100px;
+}
+
+.select-box select {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.main .bottom-info{
+    font-size: 13px;
+    margin: 15px auto;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+}
+
+.result{
+    padding: 0px 5%;
+    max-height: 70vh;
+    overflow-y: scroll;
+}
+
+.result::-webkit-scrollbar{
+    display: none;
+}
+
+.result-title{
+    margin: 40px 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.result img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.result-data{
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.loader{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+
+.loader hr{
+    border-radius: 4px;
+    border: none;
+    background-color: #f6f7f8;
+    background: linear-gradient(to right,#9ed7ff,#ffffff,#9ed7ff);
+    background-size: 800px 50px;
+    height: 20px;
+    animation: loader 3s infinite linear;
+}
+@keyframes loader {
+    0%{
+        background-position: -800px 0px;
+    }
+    100%{
+        background-position: 800px 0px;
+    }
+}
+
+.result-data p{
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.8;
+    color: white;
+}
+
+@media (max-width:600px) {
+    .main-bottom input{
+        flex: none;
+        width: 150px;
+
+    }
+    .main-bottom img{
+        width: 20px;
+    }
+    .search-box{
+        padding: 5px 10px;
+    }
+    .search-box div{
+        gap: 5px;
+    }
+}
+
