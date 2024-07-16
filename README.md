@@ -12,4 +12,7 @@ Robust Backend Integration: Employed Flask and FastAPI to create a scalable and 
 Customizability: Enabled users to customize story parameters, such as genre and character names, to tailor the generated stories to their preferences.
 Real-time Story Generation: Achieved near real-time story generation, providing an interactive and engaging user experience.
 
+here's you can watch our Demo:
+https://youtu.be/QhK4bdBxJug
+
 if you need any help feel free to contact us on: NarrativeHub@outlook.com
